@@ -20,7 +20,7 @@ services:
     container_name: springboot_app
     restart: always
     ports:
-      - "1001:1001"
+      - "1001:1002"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/books?serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: user
